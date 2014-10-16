@@ -652,6 +652,7 @@ a.search-hide h1 img, a.search-show h1 img { padding-right: 10px;}
 
 .wrapper .content-row .wide {
     width: 747px;
+    float: left;
 }
 
 .wrapper .content-row .wide .announcement{
