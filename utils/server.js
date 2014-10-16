@@ -3,7 +3,7 @@
 var http = require('http')
   , fs = require('fs')
   , request = require('request')
-  , host = 'http://telemarkfylkeskommune.cloudapp.net'
+  , config = require('../config')
   , server
   ;
 
@@ -13,10 +13,10 @@ server = http.createServer(function (req, resp) {
       ;
     fileStream.pipe(resp);
   } else {
-    req.pipe(request(host+req.url)).pipe(resp);
+    req.pipe(request(config.host + req.url)).pipe(resp);
   }
 });
 
-server.listen(8000, function(){
-  console.log('Server listening on port 8000');
+server.listen(config.port, function(){
+  console.log('Server listening on port ' + config.port);
 });

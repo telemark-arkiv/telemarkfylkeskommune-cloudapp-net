@@ -2,6 +2,13 @@
 
 Filene som brukes til postlisteløsningen fra Public360
 
+##Starte utviklingsserver
+Sett inn dine egne verdier i config.js
+
+```
+$ npm start
+```
+
 ##Minimere css
 
 ```
