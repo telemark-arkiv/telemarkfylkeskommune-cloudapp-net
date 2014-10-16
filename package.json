@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "minify" : "node utils/minify.js"
+    "start": "node utils/server.js",
+    "minify": "node utils/minify.js"
   },
   "dependencies": {
-    "node-minify": "^0.11.1"
+    "node-minify": "^0.11.1",
+    "request": "^2.45.0"
   }
 }
