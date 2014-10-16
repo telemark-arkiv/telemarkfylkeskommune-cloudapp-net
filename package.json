@@ -2,6 +2,11 @@
   "name": "telemarkfylkeskommune-cloudapp-net",
   "version": "0.0.1",
   "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
   "scripts": {
     "start": "node utils/server.js",
     "minify": "node utils/minify.js"
