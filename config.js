@@ -1,7 +1,7 @@
 'use strict';
 
 var config = {
-      host: 'http://telemarkfylkeskommune.cloudapp.net',
+      host: 'http://<yourserver>.cloudapp.net',
       port: 8000
     }
   ;
