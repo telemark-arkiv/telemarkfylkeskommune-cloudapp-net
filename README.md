@@ -26,6 +26,7 @@ $ npm install
 Sett inn dine egne verdier i config.js
 **host**: http://<din-adresse.cloudapp.net>
 **port**: portnummer for utviklingsserveren på localhost
+**intercepts**: array med objekter av filer som skal byttes ut
 
 ```
 $ npm start
