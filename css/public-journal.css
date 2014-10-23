@@ -410,7 +410,7 @@ input.text {
 
 .wrapper .content-row .center-column
 .content-container .document-rows .data-column {
-    width: 440px;
+    width: 90%;
     display: block;
     background: #f1f1f1;
     float: left;
@@ -570,9 +570,9 @@ input.text {
 /* Inner Page content Area Classes Starts*/
 
 .wrapper .content-row .search-center-column {
-    width: 718px;
+    width: 60%;
     float: left;
-    padding: 30px 0 0 27px;
+    padding: 2em 0 0 2em;
     border-left: 4px solid #fff;
     background: #fff;
 }
@@ -581,8 +581,8 @@ input.text {
     width: 100%;
     color: #A3A3A3;
     float: left;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
 }
 
 .wrapper .content-row .search-center-column .content-container h1 {
@@ -590,8 +590,6 @@ input.text {
     display: block;
     float: left;
     text-transform: uppercase;
-    font-family: "Segoe Condensed", "Segoe UI", "Trebuchet MS", Tahoma;
-    font-size: 18px;
     border-bottom: 2px solid #d6d6d6;
     border-top: 3px solid #989899;
     color: #323733;
@@ -703,7 +701,7 @@ a.search-hide h1 img, a.search-show h1 img {
 
 .wrapper .content-row .search-center-column
 .content-container .adv-search-data table {
-    width: 700px;
+    width: 60%;
     display: block;
     margin: 0 0 0 10px;
 }
@@ -809,7 +807,7 @@ a.search-hide h1 img, a.search-show h1 img {
 
 .wrapper .content-row .search-center-column .content-container
 .document-rows .data-column {
-    width: 663px;
+    width: 90%;
     display: block;
     background: #f1f1f1;
     float: left;
@@ -984,7 +982,7 @@ a.search-hide h1 img, a.search-show h1 img {
 
 .wrapper .content-row .search-center-column
 .content-container .document-rows .data-permitted {
-    width: 678px;
+    width: 60%;
     display: block;
     border-top: 1px solid #fff;
     background: #e2e2e2;
@@ -993,7 +991,7 @@ a.search-hide h1 img, a.search-show h1 img {
 
 .wrapper .content-row .search-center-column
 .content-container .document-rows .data-permitted .data-details {
-    width: 650px;
+    width: 60%;
     float: left;
     padding: 5px 5px 5px 10px;
 }
@@ -1021,7 +1019,7 @@ a.search-hide h1 img, a.search-show h1 img {
 
 .search-center-column .content-container
 .document-rows .data-quick-link {
-    width: 663px;
+    width: 60%px;
     display: block;
     background: #f1f1f1;
     float: left;
@@ -1354,7 +1352,6 @@ input.sortIndex {
 
 .paging {
     color: #000;
-    font-size:13px;
 }
 
 .paging a {
