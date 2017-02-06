@@ -1,5 +1,7 @@
 #telemarkfylkeskommune-cloudapp-net
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/telemarkfylkeskommune-cloudapp-net.svg)](https://greenkeeper.io/)
+
 Utviklerverktøy for tilpasning av utseendet på 360 offentlig journal.
 
 Krever [Node.js](http://nodejs.org/) og [npm](https://www.npmjs.org/) (kommer med i de fleste installasjoner av Node.js)
